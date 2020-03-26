@@ -1,8 +1,18 @@
 .movies {
     color: goldenrod;
     font-size: 18px;
+    text-align: left;
 }
 
 h3 {
     text-align: center;
+    text-decoration: underline;
+    
+}
+
+ol {
+    border-right: dashed;
+   border-left: dashed;
+    border-color: black;
+    border-width: 1px;
 }

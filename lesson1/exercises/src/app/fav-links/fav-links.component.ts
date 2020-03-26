@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UrlObject } from 'url';
 
 @Component({
   selector: 'fav-links',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-links.component.css']
 })
 export class FavLinksComponent implements OnInit {
-      favLinks = ['http://www.granta.com', 'http://revisionisthistory.com', 'http://electricliterature.com'];
+      
+      favLinks = ["http://www.granta.com", "http://revisionisthistory.com", "http://electricliterature.com"];
   constructor() {
     
    }

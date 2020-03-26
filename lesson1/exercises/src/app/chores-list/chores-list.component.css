@@ -2,6 +2,7 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
     color: purple;
+   
 }
 
 h3 {
@@ -10,4 +11,8 @@ h3 {
 
 ul {
     font-style: italic;
+    border-left: dashed;
+    border-right: dashed;
+    border-color: black;
+    border-width: 1px;
 }
