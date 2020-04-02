@@ -13,7 +13,7 @@ export class AppComponent {
   width = 0;
   message = 'Space shuttle ready for takeoff!';
   takeOffEnabled: boolean = true;
-  leftEnabled: boolean = true;
+  
 
   handleTakeOff() {
     let result = window.confirm('Are you sure the shuttle is ready for takeoff?');
